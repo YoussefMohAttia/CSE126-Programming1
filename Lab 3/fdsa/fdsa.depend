@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666722749 source:c:\users\admin\onedrive\desktop\fdsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
