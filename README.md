@@ -1,8 +1,8 @@
 <div align="center">
 
-# CSE126 Programming 1
+# C Programming Foundations
 
-### Foundational C Programming Exercises and Labs
+### A Practical Collection of C Algorithms and Console Programs
 
 [![C](https://img.shields.io/badge/C-Programming%20Fundamentals-A8B9CC?logo=c&logoColor=black)](https://en.cppreference.com/w/c)
 
@@ -10,12 +10,12 @@
 
 ## Overview
 
-An archive of introductory C coursework covering control flow, functions, recursion, arrays, pointers, structures, matrices, and text-file I/O.
+An implementation collection covering control flow, functions, recursion, arrays, pointers, structures, matrices, and text-file I/O.
 
 ## Contents
 
-- Assignments on numerical methods, number properties, recursion, arrays, matrices, structures, and complex/fraction arithmetic
-- Labs covering parameter passing, pointer manipulation, file processing, student records, and array algorithms
+- Numerical methods, number properties, recursion, arrays, matrices, structures, and complex/fraction arithmetic
+- Parameter passing, pointer manipulation, file processing, student records, and array algorithms
 - Code::Blocks project files and original build artifacts for many exercises
 
 ## Run an Exercise
@@ -23,11 +23,12 @@ An archive of introductory C coursework covering control flow, functions, recurs
 Each exercise is self-contained. Compile the desired `main.c` file with a C compiler, for example:
 
 ```bash
-gcc "Assignment 1/HW1/main.c" -o assignment1
-./assignment1
+cd "CSE126-Programming1/Assignment 1/HW1"
+gcc main.c -o number-tools
+./number-tools
 ```
 
-You can also open the matching `.cbp` file in Code::Blocks. File-based labs should be launched from their own directory so any text input files are found.
+You can also open the matching `.cbp` file in Code::Blocks. Run file-based programs from their own directory so any text input files are found.
 
 ## Author
 
